@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="95" original="/sample.properties" source-language="en" target-language="uk" datatype="plaintext" project-id="478147" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="439" resname="string_key" approved="yes">
+        <source>Text for translation</source>
+        <target state="final">Текст для перекладу</target>
+        <note from="Crowdin" priority="2"> You are reading the &quot;.properties&quot; entry.
+ The exclamation mark can also mark text as comments.
+ The key characters =, and : should be written with
+ a preceding backslash to ensure that they are properly loaded.
+ However, there is no need to precede the value characters =, and : by a backslash.
+string_key</note>
+      </trans-unit>
+      <trans-unit id="441" resname="language" approved="yes">
+        <source>English</source>
+        <target state="final">Українська</target>
+        <note from="Crowdin" priority="2">language</note>
+      </trans-unit>
+      <trans-unit id="443" resname="message" approved="yes">
+        <source>Welcome to Crowdin!</source>
+        <target state="final">Ласкаво просимо в Crowdin!</target>
+        <note from="Crowdin" priority="2"> The backslash below tells the application to continue reading
+ the value onto the next line.
+message</note>
+      </trans-unit>
+      <trans-unit id="445" resname="key with spaces" approved="yes">
+        <source>This is the value that could be looked up with the key &quot;key with spaces&quot;.</source>
+        <target state="final">Це значення, яке можна було б побачити ключем &quot;ключ з пробілами&quot;.</target>
+        <note from="Crowdin" priority="2"> Add spaces to the key
+key with spaces</note>
+      </trans-unit>
+      <trans-unit id="447" resname="tab" translate="no">
+        <source>	</source>
+        <target>	</target>
+        <note from="Crowdin" priority="2"> Unicode
+tab</note>
+      </trans-unit>
+      <trans-unit id="449" resname="path">
+        <source>c:\wiki\ templates</source>
+        <target state="translated">c:\wiki\ шаблони</target>
+        <note from="Crowdin" priority="2"> If you want your property to include a backslash, it should be escaped by another backslash
+path</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
