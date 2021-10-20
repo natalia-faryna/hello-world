@@ -1,0 +1,3 @@
+files:
+  - source: /global*.json
+    translation: /try/%two_letters_code%/%original_file_name%
