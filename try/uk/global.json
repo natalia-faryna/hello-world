@@ -1,7 +1,7 @@
 {
     "COMMON": {
         "Button": {
-            "Cancel": "fgglkr",
+            "Cancel": "Cancel",
             "Create": "Create",
             "Delete": "Delete",
             "Remove": "Remove",
