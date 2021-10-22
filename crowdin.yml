@@ -1,8 +1,8 @@
-commit_message: "Fix: New translations %original_file_name% from Crowdin
+commit_message: "Fix: New translations %original_file_name% from Crowdin"
 append_commit_message: false
+export_languages:
+  - ru
 files:
   - source: /global.json
     translation: /try/%two_letters_code%/%original_file_name%
-    export_languages: [
-    ru
-  ]
+
